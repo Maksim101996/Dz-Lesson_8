@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<title>Dz Lesson_8</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<header>
+				<h1 class="main-1">
+					Привет, сегодня я попробую рассказать тебе про псевдоклассы и псевдоэлементы
+				</h1>
+			</header>
+			<main>
+				<div class="text-1">
+					<p>
+						Это :hover, наводишь на него и он меняется
+					</p>
+				</div>
+				<a class="button-1" href="">
+					Наведи на меня
+				</a>
+				<div class="text-2">
+					<p>Это :active, нажми на него и держи</p>
+				</div>
+				<a class="button-2" href="">
+					Наведи, потом нажми
+				</a>
+				<div class="text-3">
+					<p> Это :visited, он подскажет, посещал ты сайт или нет</p>
+				</div>
+				<a target="_blank" class="button-3" href="https://vk.com/">
+					Когда ты пройдёшь по ссылке, я стану серым
+				</a>
+				<div class="text-4">
+					<p>Это :focus, выделяет интерактивные объекты, если ты зашёл сюда без мышки. Стиль выделения ты выбираешь сам</p>
+				</div>
+
+				<a class="button-4" href="">
+					Я кнопка
+				</a>
+				<a class="button-5" href="">
+					Я кнопка
+				</a>
+				<a class="button-6" href="">
+					Я кнопка
+				</a>
+				<a class="button-7" href="">
+					Я кнопка
+				</a>
+
+				<div class="text-5">
+					<p>Это :target, он крутой. Как он работает, поможет разобраться наш <span class="test">тест</span></p>
+				</div>
+
+				<div class="yes-or-no">
+					<a id="green" class="yes">Правильно</a>
+					<a id="reset" class="res">/</a>
+
+					<a id="red" class="no">Неправильно</a>
+				</div>
+				<div class="question-1">
+					<p class="ques-1">
+						Сколько будет 2+2?
+					</p>
+				</div>
+				<div class="answer-1">
+					<a href="#red" class="ans-1">3</a>
+					<a href="#green" class="ans-2">4</a>
+					<a href="#reset" class="ans-3">сброс</a>
+					<!-- <a href="#red" class="ans-4">6</a>  -->
+				</div>
+
+				<!-- <div class="question-2">
+						<p>Продолжите фразу: Да прибудет...</p>
+			
+					</div>
+					<div class="answer-2">
+						<a href="#red-1" class="ans-4">c тобой мыло</a>
+						<a href="#pink" class="ans-5">с тобой пиво</a>
+						<a href="#green-1" class="ans-6">с тобой сила</a>
+					</div>
+					<div class="da-ili-net">
+						<a id="green-1" class="da">Правильно</a>
+						<a id="pink" class="sbros">Тоже правильно)</a>
+				
+					<a id="red-1" class="net">Неправильно</a>
+				</div> -->
+				<div class="text-6">
+					<p>Это :frist-child и :last-child, с их помощью мы обращаемся к первому и последнему элементам в блоке</p>
+				</div>
+				<div class="text-block">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, numquam rerum modi animi in iusto labore voluptas possimus praesentium reiciendis, esse fugit nulla. Ipsam, sunt vero pariatur quod blanditiis ducimus?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, numquam rerum modi animi in iusto labore voluptas possimus praesentium reiciendis, esse fugit nulla. Ipsam, sunt vero pariatur quod blanditiis ducimus?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, numquam rerum modi animi in iusto labore voluptas possimus praesentium reiciendis, esse fugit nulla. Ipsam, sunt vero pariatur quod blanditiis ducimus?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati, numquam rerum modi animi in iusto labore voluptas possimus praesentium reiciendis, esse fugit nulla. Ipsam, sunt vero pariatur quod blanditiis ducimus?</p>
+				</div>
+				<div class="text-7">
+					<p>*:first-of-type и :*last-of-type стилизует все первые и последние элементы, даже если их много и они разные</p>
+				</div>
+				<div class="text-block-2">
+					<span>Я строчный</span>
+					<span>Я строчный</span>
+					<span>Я строчный</span>
+					<span>Я строчный</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eius eveniet quasi porro doloremque enim et error! A unde maiores nobis numquam nulla. Quisquam ut, doloremque pariatur consequatur quod aliquid?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eius eveniet quasi porro doloremque enim et error! A unde maiores nobis numquam nulla. Quisquam ut, doloremque pariatur consequatur quod aliquid?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eius eveniet quasi porro doloremque enim et error! A unde maiores nobis numquam nulla. Quisquam ut, doloremque pariatur consequatur quod aliquid?</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi eius eveniet quasi porro doloremque enim et error! A unde maiores nobis numquam nulla. Quisquam ut, doloremque pariatur consequatur quod aliquid?</p>
+					<span>Я строчный</span>
+					<span>Я строчный</span>
+					<span>Я строчный</span>
+					<span>Я строчный</span>
+				</div>
+				<div class="text-8">
+					<p>Это :nth-child(порядковый номер элемента)
+						Он обращается к конкретным элементам в блоке
+					</p>
+				</div>
+				<div class="text-block-3">
+					<span>Я Строчный</span>
+					<span>Я Строчный</span>
+					<span>Я Строчный</span>
+					<span>Я Строчный</span>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero cum officia ratione odit culpa totam, ipsa tenetur adipisci ab corrupti quasi deleniti similique dolore maiores earum, perspiciatis officiis nobis magni.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero cum officia ratione odit culpa totam, ipsa tenetur adipisci ab corrupti quasi deleniti similique dolore maiores earum, perspiciatis officiis nobis magni.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero cum officia ratione odit culpa totam, ipsa tenetur adipisci ab corrupti quasi deleniti similique dolore maiores earum, perspiciatis officiis nobis magni.</p>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero cum officia ratione odit culpa totam, ipsa tenetur adipisci ab corrupti quasi deleniti similique dolore maiores earum, perspiciatis officiis nobis magni.</p>
+					<span>Я Строчный</span>
+					<span>Я Строчный</span>
+					<span>Я Строчный</span>
+					<span>Я Строчный</span>
+				</div>
+				<div class="text-9">
+					<p>Псевдоэлементы
+						::before(до) ::after(после) Добавление контента до и после содержимого</p>
+				</div>
+				<div class="pravilo">
+					<h2>Важно!!!</h2>
+					<p> 1) ::before и ::after НЕ работают без параметра content: ""; С помощью контент мы и выводим то, что нам нужно</p>
+					<p>
+						2) ::before и ::after - строчные !!!(Псевдоэлемент является строчным даже в блочном объекте)
+
+					</p>
+
+				</div>
+				<ul class="list">
+					<li>
+						я пункт
+					</li>
+					<li>
+						я пункт
+					</li>
+					<li>
+						я длинный пункт я длинный пункт я длинный пункт я длинный пункт я длинный пункт я длинный пункт я длинный пункт я длинный пункт я длинный пункт я длинный пункт я длинный пункт я длинный пункт я длинный пункт я длинный пункт
+					</li>
+					<li>
+						я пункт
+					</li>
+					<li>
+						я пункт
+					</li>
+				</ul>
+				<h3 class="line">Наведи и увидишь линию</h3>
+				<ul class="num-list">
+					<li>пункт</li>
+					<li>пункт</li>
+					<li>пункт</li>
+					<li>пункт</li>
+					<li>пункт</li>
+				</ul>
+
+			</main>
+			<footer>
+
+			</footer>
+		</div>
+	</body>
+</html>

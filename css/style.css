@@ -1,0 +1,459 @@
+@import "null.css";
+
+@font-face {
+	font-family: "MuseoSansCyrl";
+	src: url("../fonts/MuseoSansCyrl-100Italic.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-100Italic.woff") format("woff");
+	font-style: italic;
+	font-weight: 100;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MuseoSansCyrl";
+	src: url("../fonts/MuseoSansCyrl-500.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-500.woff") format("woff");
+	font-style: normal;
+	font-weight: 500;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "MuseoSansCyrl";
+	src: url("../fonts/MuseoSansCyrl-700Italic.woff2") format("woff2"), url("../fonts/MuseoSansCyrl-700Italic.woff") format("woff");
+	font-style: italic;
+	font-weight: 700;
+	font-display: swap;
+}
+
+body {
+	font-family: "MuseoSansCyrl", "sans-serif";
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.wrapper {
+	overflow: hidden;
+	min-height: 100%;
+	background-color: blanchedalmond;
+}
+
+.main-1 {
+	color: rgba(156, 5, 5, 0.719);
+	background: linear-gradient(0deg, rgba(36, 0, 10, 0.5634628851540616) 0%, rgba(0, 9, 255, 0.6418942577030813) 100%);
+	max-width: 1000px;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-top: 20px;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.button-1 {
+	color: green;
+	background-color: burlywood;
+	min-height: 50px;
+	display: block;
+	padding: 12px 0 0 0;
+	border-radius: 10px;
+	font-size: 30px;
+	max-width: 230px;
+	margin: 70px auto;
+}
+
+.text-1,
+.text-2,
+.text-3,
+.text-4,
+.text-5,
+.text-6,
+.text-7,
+.text-8,
+.text-9 {
+	font-size: 30px;
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+
+.test {
+	color: red;
+}
+
+.button-1:hover {
+	background-color: brown;
+	color: blue;
+	box-shadow: inset 3px 3px 3px 3px black, 3px 3px 3px 3px black;
+	outline: 5px dotted green;
+	font-size: 30px;
+	max-width: 350px;
+	text-align: center;
+}
+
+.button-2 {
+	color: red;
+	background-color: seagreen;
+	border-radius: 5px;
+	margin: 60px auto;
+	display: block;
+	max-width: 300px;
+	text-align: center;
+	min-height: 30px;
+	font-size: 35px;
+}
+
+.button-2:hover {
+	color: blue;
+	background-color: pink;
+	outline: 3px dotted black;
+}
+
+.button-2:active {
+	box-shadow: inset 0 2px 5px 2px #000, 0 4px 7px 4px #000;
+	padding: 1px 1px 1px 1px;
+	display: block;
+	max-width: 300px;
+	margin: 60px auto;
+	color: purple;
+	background-color: skyblue;
+}
+
+.button-3 {
+	max-width: 200px;
+	display: block;
+	background: indianred;
+	margin: 50px auto;
+	text-align: center;
+	border-radius: 20px 10px;
+	outline: 2px solid black;
+}
+
+.button-3:hover {
+	background-color: blueviolet;
+	color: whitesmoke;
+	box-shadow: 5px 5px 5px 5px black;
+}
+
+.button-3:active {
+	background-color: crimson;
+	color: blue;
+	box-shadow: inset 0 4px 6px 3px black;
+	padding: 8px 0 0px 0;
+}
+
+.button-3:visited {
+	color: pink;
+	background-color: gray;
+	outline: 2px solid blue;
+}
+
+.button-4 {
+	color: red;
+	background-color: pink;
+	margin-top: 30px;
+	display: inline-block;
+	margin-right: 50px;
+	margin-left: 230px;
+	border-radius: 20px;
+	font-size: 35px;
+}
+
+.button-5 {
+	color: red;
+	background-color: pink;
+	margin-top: 30px;
+	display: inline-block;
+	margin-right: 50px;
+	margin-left: 230px;
+	border-radius: 20px;
+	font-size: 35px;
+}
+
+.button-6 {
+	color: red;
+	background-color: pink;
+	margin-top: 30px;
+	display: inline-block;
+	margin-right: 50px;
+	margin-left: 230px;
+	border-radius: 20px;
+	font-size: 35px;
+}
+
+.button-7 {
+	color: red;
+	background-color: pink;
+	margin-top: 30px;
+	display: inline-block;
+	margin-right: 50px;
+	margin-left: 230px;
+	border-radius: 20px;
+	margin-bottom: 50px;
+	font-size: 35px;
+}
+
+.button-4:focus {
+	outline: 3px dotted blue;
+}
+
+.button-5:focus {
+	outline: 4px solid purple;
+}
+
+.button-6:focus {
+	outline: 3px double green;
+}
+
+.button-7:focus {
+	outline: 5px dotted brown;
+}
+
+.question-1 {
+	max-width: 600px;
+	margin: 40px auto;
+	font-size: 35px;
+	background: url("../img/1618501713_4-p-fon-tetrad-v-kletochku-4.jpg") 0 0 no-repeat;
+	text-align: center;
+}
+
+.answer-1 {
+	max-width: 900px;
+	margin: 0 auto;
+	font-size: 35px;
+	margin-top: 30px;
+	margin-bottom: 100px;
+}
+
+.ans-1 {
+	margin-left: 150px;
+	background: white;
+	border-radius: 10px;
+}
+
+.ans-2 {
+	background: white;
+	margin-left: 200px;
+}
+
+.ans-3 {
+	background: black;
+	color: white;
+	margin-left: 200px;
+	border-radius: 15px;
+}
+
+.yes-or-no {
+	max-width: 800px;
+	margin: 60px auto;
+	font-size: 35px;
+}
+
+.yes {
+	max-width: 200px;
+
+	display: inline-block;
+}
+
+.res {
+	margin-left: 150px;
+	display: inline-block;
+	max-width: 50px;
+}
+
+.no {
+	max-width: 230px;
+	margin: 0 0 0 180px;
+	display: inline-block;
+}
+
+.yes:target {
+	background-color: green;
+	color: white;
+	border-radius: 20px;
+}
+
+.no:target {
+	background-color: red;
+	color: white;
+	border-radius: 15px;
+}
+
+.da-ili-net {
+	max-width: 900px;
+	margin: 60px auto;
+	font-size: 35px;
+}
+
+.da {
+	font-weight: 700;
+}
+
+.da:target {
+	background-color: seagreen;
+	border-radius: 20px;
+	color: white;
+}
+
+.sbros {
+	margin-left: 80px;
+	font-weight: 700;
+}
+
+.sbros:target {
+	background: blue;
+	border-radius: 20px;
+	color: white;
+}
+
+.net {
+	margin-left: 80px;
+	font-weight: 700;
+}
+
+.net:target {
+	background: red;
+	border-radius: 20px;
+	color: white;
+}
+
+.question-2 {
+	background: url("../img/09399dae6b266154df49a0c8b1f5c9c0.jpg") center / 700px 400px no-repeat;
+	min-height: 400px;
+	text-align: center;
+	font-size: 40px;
+	color: white;
+}
+
+.answer-2 {
+	max-width: 900px;
+	margin: 50px auto;
+	font-size: 35px;
+}
+
+.ans-4 {
+	color: red;
+	background: white;
+	border-radius: 30%;
+}
+
+.ans-5 {
+	margin-left: 100px;
+	color: red;
+	background: white;
+	border-radius: 30%;
+}
+
+.ans-6 {
+	margin-left: 100px;
+	color: red;
+	background: white;
+	border-radius: 30%;
+}
+
+.text-block {
+	margin-top: 50px;
+	font-size: 35px;
+	color: seagreen;
+}
+
+.text-block p:first-child {
+	background-color: crimson;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.text-block p:last-child {
+	background-color: crimson;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.text-block-2 *:first-of-type {
+	color: purple;
+	padding: 20px;
+	background-color: pink;
+	margin-top: 20px;
+	display: inline-block;
+}
+
+.text-block-2 *:last-of-type {
+	color: blue;
+	padding: 5px;
+	background-color: seagreen;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+
+.text-block-3 * {
+	background: gray;
+	margin-bottom: 10px;
+}
+
+.text-block-3 *:nth-child(odd) {
+	color: red;
+}
+
+.pravilo p {
+	margin-top: 20px;
+	color: red;
+	font-size: 40px;
+	background: url("../img/1618501713_4-p-fon-tetrad-v-kletochku-4.jpg") center / cover no-repeat;
+}
+
+h2 {
+	color: purple;
+	font-size: 35px;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.list {
+	margin: 40px 0 0 0;
+}
+
+.list li {
+	margin-bottom: 10px;
+	padding-left: 35px;
+}
+
+.list li::before {
+	content: "";
+	display: inline-block;
+	min-width: 30px;
+	min-height: 30px;
+	background: url("../img/569be3ec0584f15250f251f7.png") 0 0 / 30px no-repeat;
+	margin: 0 15px 0 -30px;
+	transition: all 0.3 ease 0s;
+}
+
+.list li:hover::before {
+	transform: rotate(300deg) scale(1.8);
+}
+
+.line {
+	margin: 50px auto;
+	font-size: 40px;
+	color: rgb(70, 70, 161);
+	display: inline-block;
+}
+
+.line:hover::after {
+	content: "";
+	height: 3px;
+	width: 40%;
+	display: block;
+	background-color: red;
+	margin: 4px 0 0 0;
+}
+
+.num-list {
+	margin: 0 0 50px 50px;
+}
+.num-list li {
+	color: red;
+	margin-top: 10px;
+}
+
+.num-list li:hover + li {
+	color: green;
+	font-size: 35px;
+}
